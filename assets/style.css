@@ -21,11 +21,19 @@ body, html {
   padding-bottom: 10px;
 }
 .title {
-  border-bottom: 1px solid rgb(95, 86, 86) 
+  border-bottom: 2px solid #e5e5e5 
+  
   
 }
+
+/* styling h1*/
 .color {
   color: cadetblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .padding-top {
@@ -35,6 +43,24 @@ body, html {
 .nav-bg-color {
   background-color: cadetblue;
 }
+
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+
+.form-padding {
+  padding-left: 20px;
+}
+
+.btn-bg{
+  background-color: cadetblue;
+}
+
+.{
+  padding-bottom: 20px;
+}
+
 
 
 
