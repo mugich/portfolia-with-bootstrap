@@ -1,29 +1,16 @@
-
-
-body, html {
-  height: 100%;
-}
+/*full background img*/
 .background-img {
-  /* The image used */
-  background-image: url("../assets/images/image_bg.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+min-height: 100vh;
+background-image: url(../assets/images/image_bg.png);
 }
 
-.padding-right {
-  padding-right: 20px;
-  padding-bottom: 10px;
+/*navbar styling*/
+.nav-bg-color {
+  background-color: cadetblue;
 }
-.title {
-  border-bottom: 2px solid #e5e5e5 
-  
-  
+.navbar-brand {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
 }
 
 /* styling h1*/
@@ -36,31 +23,56 @@ body, html {
   padding-bottom: 10px;
 }
 
+/*h1 title border*/
+.title {
+  border-bottom: 2px solid #e5e5e5  
+}
+
+/*container padding*/
 .padding-top {
  padding-top: 60px;
 }
 
-.nav-bg-color {
-  background-color: cadetblue;
+/*profile img padding*/
+.padding-right {
+  padding-right: 15px;
+  padding-bottom: 10px;
 }
 
-.navbar-brand {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-
+/* form padding*/
 .form-padding {
   padding-left: 20px;
 }
-
-.btn-bg{
-  background-color: cadetblue;
-}
-
 .submit-padding{
   padding-bottom: 25px;
 }
 
+/*submit button background color*/
+.btn-bg{
+  background-color: cadetblue;
+}
+
+/*portfolio img padding*/
+.row {
+  padding-left: 20px;
+  padding-top: 20px;
+} 
+/*footer styling*/
+.footer-color {
+background-color: dimgray ;
+}
+.page-footer {
+border-top: 8px solid cadetblue;
+}
+
+@media screen and (max-width: 992px){
+  .bg-white{
+    width: 100%;
+  }
+  #row1, #row2{
+    width: 100%;
+  } 
+}
 
 
 
