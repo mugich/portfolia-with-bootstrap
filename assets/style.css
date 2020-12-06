@@ -1,0 +1,29 @@
+
+
+body, html {
+  height: 100%;
+}
+.background-img {
+  /* The image used */
+  background-image: url("../assets/images/image_bg.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padding-right {
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.title {
+  border-bottom: 1px solid rgb(95, 86, 86) 
+}
+
+.color {
+  color: #4aaaa5;
+}
