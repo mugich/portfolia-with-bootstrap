@@ -22,8 +22,23 @@ body, html {
 }
 .title {
   border-bottom: 1px solid rgb(95, 86, 86) 
+  
+}
+.color {
+  color: cadetblue;
 }
 
-.color {
-  color: #4aaaa5;
+.padding-top {
+ padding-top: 60px;
 }
+
+.nav-bg-color {
+  background-color: cadetblue;
+}
+
+
+
+
+
+
+
