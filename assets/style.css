@@ -17,7 +17,7 @@ background-image: url(../assets/images/image_bg.png);
 .color {
   color: cadetblue;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -29,8 +29,9 @@ background-image: url(../assets/images/image_bg.png);
 }
 
 /*container padding*/
-.padding-top {
+.content-padding {
  padding-top: 60px;
+ padding-bottom: 40px;
 }
 
 /*profile img padding*/
@@ -52,11 +53,6 @@ background-image: url(../assets/images/image_bg.png);
   background-color: cadetblue;
 }
 
-/*portfolio img padding*/
-.row {
-  padding-left: 20px;
-  padding-top: 20px;
-} 
 /*footer styling*/
 .footer-color {
 background-color: dimgray ;
@@ -65,16 +61,17 @@ background-color: dimgray ;
 border-top: 8px solid cadetblue;
 }
 
-@media screen and (max-width: 992px){
-  .bg-white{
-    width: 100%;
-  }
-  #row1, #row2{
-    width: 100%;
-  } 
+/* portfolio image layout*/
+.image-position {
+  padding-bottom: 40px;
+  padding-right: 20px;
 }
-
-
+@media screen and (min-width:992px) {
+  .image-position{
+    width:50%; /* 2 images per row */
+    float:left; 
+  }
+}
 
 
 
