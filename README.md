@@ -24,7 +24,7 @@ I used the Bootstrap CSS Framework to create a mobile responsive portfolio. It w
 
 ## Application links
 
-* The URLs of the deployed applications
+* [deployed application](https://mugich.github.io/portfolia-with-bootstrap/)
 
-* The URLs of the GitHub repositories
+* [GitHub repositories](https://github.com/mugich/portfolia-with-bootstrap)
 
